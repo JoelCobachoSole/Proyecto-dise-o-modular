@@ -3,7 +3,7 @@ package Proyectodiseñomodular;
 import java.util.Scanner;
 
 public class carrito {
-    public static final int MAX_PRODUCTOS = 100;
+    public static int MAX_PRODUCTOS = 100;
     public static String[] productos = new String[MAX_PRODUCTOS];
     public static double[] cantidades = new double[MAX_PRODUCTOS];
     public static double[] precios = new double[MAX_PRODUCTOS];
