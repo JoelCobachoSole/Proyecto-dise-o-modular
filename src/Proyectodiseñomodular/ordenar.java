@@ -10,17 +10,15 @@ public class ordenar {
         for (int i = 0; i < precio.length - 1; i++) {
             for (int j = i + 1; j < precio.length; j++) {
                 if ((ascendente && precio[i] > precio[j]) || (!ascendente && precio[i] < precio[j])) {
-                    // Intercambiar precios
+
                     double tempPrecio = precio[i];
                     precio[i] = precio[j];
                     precio[j] = tempPrecio;
 
-                    // Intercambiar nombres de hierbas
                     String tempHierba = hierba[i];
                     hierba[i] = hierba[j];
                     hierba[j] = tempHierba;
 
-                    // Intercambiar origenes
                     String tempOrigen = origen[i];
                     origen[i] = origen[j];
                     origen[j] = tempOrigen;
@@ -38,17 +36,15 @@ public class ordenar {
         for (int i = 0; i < precio.length - 1; i++) {
             for (int j = i + 1; j < precio.length; j++) {
                 if ((ascendente && precio[i] > precio[j]) || (!ascendente && precio[i] < precio[j])) {
-                    // Intercambiar precios
+
                     double tempPrecio = precio[i];
-                    precio[i] = precio[j];
+                    precio[i] = precio[j]; 
                     precio[j] = tempPrecio;
 
-                    // Intercambiar nombres de hierbas
                     String tempHierba = hierba[i];
                     hierba[i] = hierba[j];
                     hierba[j] = tempHierba;
 
-                    // Intercambiar origenes
                     String tempOrigen = origen[i];
                     origen[i] = origen[j];
                     origen[j] = tempOrigen;
