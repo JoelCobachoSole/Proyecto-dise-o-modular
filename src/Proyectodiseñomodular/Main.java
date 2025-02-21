@@ -10,7 +10,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String nombre, lugar;
-        double cantidad;
         int opcion;
 
         while (true) {
@@ -48,15 +47,15 @@ public class Main {
                     break;
                 case 5:
                     System.out.println("Selecciona productos para comprar...");
-                    // Codigo para seleccionar productos
+                    carrito.seleccionarProducto();
                     break;
                 case 6:
                     System.out.println("Eliminando elemento del carrito...");
-                    // Codigo para eliminar elemento del carrito
+                    carrito.eliminarProducto();
                     break;
                 case 7:
                     System.out.println("Finalizando compra...");
-                    // Codigo para finalizar la compra y que salga el total de la compra
+                    carrito.finalizarCompra();
                     break;
                 case 8:
                     System.out.println("Saliendo...");
