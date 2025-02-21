@@ -29,7 +29,7 @@ public class ordenar {
         }
         System.out.println("Productos ordenados por precio ascendente: ");
         for (int i = 0; i < hierba.length; i++) {
-            System.out.println(hierba[i] + " - " + origen[i] + " - " + precio[i] + "€");
+            System.out.println(hierba[i] + " - " + origen[i] + " - " + precio[i]);
         }
     }
 
@@ -57,7 +57,7 @@ public class ordenar {
         }
         System.out.println("Productos ordenados por precio descendente: ");
         for (int i = 0; i < hierba.length; i++) {
-            System.out.println(hierba[i] + " - " + origen[i] + " - " + precio[i] + "€");
+            System.out.println(hierba[i] + " - " + origen[i] + " - " + precio[i]);
         }
     }
 }
