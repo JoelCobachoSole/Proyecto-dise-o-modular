@@ -40,11 +40,11 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Ordenando por precio de menor a mayor...");
-                    // Codigo para ordenar de menor a mayor precio
+                    ordenar.ordenarPorPrecioAscendente();
                     break;
                 case 4:
                     System.out.println("Ordenando por precio de mayor a menor...");
-                    // Codigo para ordenar de mayor a menor precio
+                    ordenar.ordenarPorPrecioDescendente();
                     break;
                 case 5:
                     System.out.println("Selecciona productos para comprar...");
